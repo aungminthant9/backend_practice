@@ -1,5 +1,6 @@
 var movieService = require('./../service/MovieService')
 
+//HOF
 const handle = function(func,httpErrorCode)
 {
     return async function(req,res,next)
